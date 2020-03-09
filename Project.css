@@ -1,0 +1,166 @@
+.body {
+    background-color: rgb(226, 224, 224);
+    margin: 0;
+    font-family: 'Viaoda Libre', cursive;
+} 
+
+.title1 {
+    color: black;
+    text-align: center;
+    margin: 0px;
+
+    padding-left: 50;
+    padding-right: 50;
+    padding-top: 500;
+    padding-bottom: 100;
+    display: block;
+    background: url('Images/front1.jpg');
+    background-size: cover;
+    width: 1340;
+    height: 180;
+}
+
+.title2 {
+font-size: 85;
+background-color: rgba(211, 211, 211, 0.424);
+    
+}
+
+.categories {
+    display: table;
+    color: black;
+  }
+
+
+a {
+      color: black;
+      font-size: 45;
+      text-decoration: none;
+      text-decoration-color: grey;
+  }
+
+
+.break {
+    padding: 10px;
+    background-color: rgb(66, 65, 65);
+    margin: 0;
+    color: rgb(66, 65, 65);
+    
+}
+
+.button {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/Action1.jpg');
+    background-size: cover;
+    padding-top: 430px;
+}
+
+.button2 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/classic.jpg');
+    background-size: cover;
+    padding-top: 430px;
+}
+
+.button3 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/Comedy1.png');
+    background-size: cover;
+    padding-top: 430px;
+}
+
+.button4 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/fantasy.jpg');
+    background-size: cover;
+    padding-top: 430px;
+}
+
+.button5 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/other.jpg');
+    background-size: cover;
+    padding-top: 430px;
+}
+
+.button6 {
+    width: 100%;
+    height: 80%;
+    display: block;
+    background: url('Images/romance.jpg');
+    background-size: cover;
+    padding-top: 430px;
+} 
+
+
+#row1 {
+    float: left;
+    height:500; 
+    width:500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+
+}
+
+#row2 {
+    float: right;
+    height:500; 
+    width:500px;
+    margin-right: 140px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+}
+
+#row3 {
+    float: left;
+    height:500; 
+    width:500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+}
+
+#row4 {
+    float: right;
+    height:500; 
+    width:500px;
+    margin-right: 140px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+}
+
+#row5 {
+    float: left;
+    height:500; 
+    width:500px;
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+}
+
+#row6 {
+    float: right;
+    height: 500; 
+    width:500px;
+    margin-right: 140px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(102, 98, 98, 0.835);
+}
+
