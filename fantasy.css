@@ -168,7 +168,7 @@ gap: 15%;
 }
 
 .image1 {
-background-image: url('martian.jpg');
+background-image: url('Images/martian.jpg');
 background-size: cover;
 box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
 flex: 1; 
@@ -233,7 +233,7 @@ box-shadow: 50px 5px 50px rgba(44, 43, 43, 0.835);
 }
 
 .image6 {
-background-image: url('iron.jpg');
+background-image: url('Images/iron.jpg');
 background-size: cover;
 box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
 flex: 1; 
