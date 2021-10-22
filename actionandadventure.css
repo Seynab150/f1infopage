@@ -169,7 +169,7 @@ a {
 }
 
 .image1 {
-  background-image: url('kidnapped2.jpg');
+  background-image: url('Images/kidnapped2.jpg');
   background-size: cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
@@ -182,7 +182,7 @@ a {
 }
 
 .image2 {
-  background-image: url('lightning.jpg');
+  background-image: url('Images/lightning.jpg');
   background-size: cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
@@ -195,7 +195,7 @@ a {
 }
 
 .image3 {
-  background-image: url('code.jpg');
+  background-image: url('Images/code.jpg');
   background-size: cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
@@ -208,7 +208,7 @@ a {
 }
 
 .image4 {
-  background-image: url('moby.jpg');
+  background-image: url('Images/moby.jpg');
   background-size: cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
@@ -221,7 +221,7 @@ a {
 }
 
 .image5 {
-  background-image: url('island.jpg');
+  background-image: url('Images/island.jpg');
   background-size:cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
@@ -234,7 +234,7 @@ a {
 }
 
 .image6 {
-  background-image: url('martian.jpg');
+  background-image: url('Images/martian.jpg');
   background-size: cover;
   box-shadow: 5px 5px 5px rgba(92, 90, 90, 0.835);
   flex: 1; 
