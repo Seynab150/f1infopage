@@ -1,7 +1,9 @@
+window.addEventListener("load", function () {
+  this.setTimeout(function open(event) {
+    document.querySelector(".popup").style.display = "block";
+  }, 1000);
+});
 
-header1.addEventListener('click', function(event) {
-  console.log(event);
-  console.log(event.target);
-  event.target.style.color = 'yellow';
-})
-
+document.querySelector("#close").addEventListener("click", function () {
+  document.querySelector(".popup").style.display = none;
+});
