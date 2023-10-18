@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://t4.ftcdn.net/jpg/05/03/06/51/360_F_503065100_Uuv3zWtJB5WiMb03DFzKPQtbjLTEiN8T.jpg");
+  background-repeat: no-repeat;
+  color: rgb(184, 7, 7);
+  background-position: right center;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+  color: aliceblue;
+  line-height: 2.5;
+}
+
+.start {
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  width: 500px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 22%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+  text-align: center;
+}
+.popup p {
+  font-size: 16px;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+.enter-button {
+  border-radius: 8px;
+  color: white;
+}
+
+.group {
+  height: 50px;
+  position: fixed;
+  bottom: 12%;
+  width: 97%;
+}
+
+.two {
+  background-image: url("https://grid.gograph.com/the-checkered-flag-icon-finish-symbol-vector-stock_gg80623339.jpg");
+  background-size: cover;
+  float: right;
+  text-decoration: none;
+  border-radius: 2px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(184, 7, 7);
+}
+
+.two a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 20px;
+}
+
+.two .image {
+  background-size: cover;
+  background-position: center;
+}
+
+.two .text {
+  margin-top: 10px;
+}
+
+.bg {
+  height: 60px;
+  width: 190px;
+  position: absolute;
+  top: 20px;
+  z-index: -1;
+  transition: 1s;
+  border-radius: 50px;
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/alfa1-1550585365.jpg?resize=1200:*");
+  background-size: cover;
+  background-position: 1px -20px;
+}
+
+span:hover + .bg {
+  width: 190px;
+  margin-left: 77%;
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/alfa1-1550585365.jpg?resize=1200:*");
+  background-size: cover;
+  background-position: 1px -20px;
+}
+
+.two > span:hover {
+  color: white;
+  background-image: url("https://grid.gograph.com/the-checkered-flag-icon-finish-symbol-vector-stock_gg80623339.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.two:hover ~ .one {
+  color: #fff;
+  background-image: url("https://grid.gograph.com/the-checkered-flag-icon-finish-symbol-vector-stock_gg80623339.jpg");
+  background-size: cover;
+  border-radius: 2px;
+}
+span {
+  padding: 10px 0;
+  transition: 1s;
+  background-color: grey;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: rgb(33, 32, 32); /* Initial color */
+  transition: background-color 0.5s ease-in-out;
+}
