@@ -62,22 +62,23 @@ p {
   height: 50px;
   position: fixed;
   bottom: 12%;
-  width: 97%;
+  width: 95%;
+
 }
 
 .two {
-  background-image: url("https://grid.gograph.com/the-checkered-flag-icon-finish-symbol-vector-stock_gg80623339.jpg");
+  background-image: url("/Images/Chequered_Flag.png");
   background-size: cover;
   float: right;
   text-decoration: none;
   border-radius: 2px;
-  height: 150px;
+  height: 100px;
   width: 150px;
   text-align: center;
-  margin-top: 5px;
   font-size: 20px;
   font-weight: 600;
   color: rgb(184, 7, 7);
+  padding-top: 80px;
 }
 
 .two a {
@@ -87,6 +88,8 @@ p {
   justify-content: center;
   height: 100%;
   font-size: 20px;
+  
+
 }
 
 .two .image {
@@ -95,7 +98,8 @@ p {
 }
 
 .two .text {
-  margin-top: 10px;
+  margin-top: 30px;
+  
 }
 
 .bg {
